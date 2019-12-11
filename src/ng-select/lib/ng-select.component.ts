@@ -59,7 +59,7 @@ export type CompareWithFn = (a: any, b: any) => boolean;
 export type GroupValueFn = (key: string | object, children: any[]) => string | object;
 
 @Component({
-    selector: 'ng-select',
+    selector: 'ng-sid-select',
     templateUrl: './ng-select.component.html',
     styleUrls: ['./ng-select.component.scss'],
     providers: [{
